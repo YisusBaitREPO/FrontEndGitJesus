@@ -1,15 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="este es un portal para nuestro instituto dirigido a la orientacion sobre nosotros y las carreras que ofrecemos">
+    <title>Portal del Instituto</title>
 </head>
+
 <body>
-    <h1>Jesus Saquiray</h1>
-    <h2>Diseño y programacion web</h2>
-    <h3>Instituto trujillo</h3>
-    <p>Nuestro Inst es bonito</p>
-    <p>vamos a tocache</p>
+    <header>
+        <!-- Identidad y título -->
+        <h1>Portal del Instituto</h1>
+        <p>Información académica para nuestros estudiantes.</p>
+    </header>
+
+    <nav>
+        <!-- Enlaces de navegación -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#carreras">Carreras</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos al Instituto</h2>
+            <article>
+                <h3>Sobre nosotros</h3>
+                <!-- Contenido -->
+                <p>
+                    Nuestra institución educativa está dedicada a la formación de jóvenes y adultos. Cuenta con diferentes carreras y cursos orientados al desarrollo profesional. Su objetivo es brindar una educación de calidad, con docentes capacitados y espacios adecuados para que los estudiantes puedan aprender y prepararse para el mundo laboral.
+                </p>
+            </article>
+
+            <article>
+                <h3>¿Qué ofrecemos?</h3>
+                <!-- Contenido -->
+                <p>
+                    Contamos con carreras orientadas al desarrollo
+                    profesional y tecnológico de nuestros estudiantes.
+                </p>
+            </article>
+        </section>
+
+        <section id="carreras">
+            <h2>Nuestras carreras</h2>
+            <!-- Lista -->
+            <ul>
+                <li>Desarrollo de Sistemas</li>
+                <li>Diseño Gráfico</li>
+                <li>Administración de Empresas</li>
+                <li>Contabilidad</li>
+            </ul>
+
+            <!-- Imagen -->
+            <img src="instituto.jpg" alt="Estudiantes del instituto">
+
+            <!-- Tabla -->
+            <caption><h3 id="horarios">Horarios de clases</h3></caption>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Programación</td>
+                        <td>Lunes</td>
+                        <td>8:00 - 10:00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Diseño Web</td>
+                        <td>Miércoles</td>
+                        <td>10:00 - 12:00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bases de Datos</td>
+                        <td>Viernes</td>
+                        <td>8:00 - 10:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <!-- Información institucional -->
+        <p>Correo: contacto@instituto.edu.pe</p>
+        <p>Teléfono: 999 999 999</p>
+        <p>&copy; 2026 Portal del Instituto</p>
+    </footer>
 </body>
 </html>
