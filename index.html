@@ -20,6 +20,7 @@
             <li><a href="#carreras">Carreras</a></li>
             <li><a href="#horarios">Horarios</a></li>
             <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#registro">Registrate</a></li>
         </ul>
     </nav>
 
@@ -88,6 +89,19 @@
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <section>
+            <div>
+                <form id="registro">
+                    <label for="nombre">Ingrese su Nombre</label>
+                    <input type="text" name="nombre" required placeholder="ejem: Juan Perez">
+                    <label for="dni">Doc de identidad</label>
+                    <input type="number" name="dni" required pattern="{8}">
+                    <label for="telf">Doc de identidad</label>
+                    <input type="tel" name="telf" required pattern="{9}">
+                    <button type="submit">Procesar</button>
+                </form>
+            </div>
         </section>
     </main>
 
